@@ -85,28 +85,7 @@ export default function About() {
               <Sparkles size={16} className="text-primary ml-auto animate-pulse" />
             </div>
 
-            <div className="h-px bg-border" />
 
-            {/* Stats with animated numbers */}
-            <div className="grid grid-cols-3 gap-4 text-center">
-              {[
-                { val: "11", label: "posts" },
-                { val: "22+", label: "followers" },
-                { val: "2.1K", label: "monthly views" },
-              ].map((s, i) => (
-                <div key={s.label} className="group">
-                  <p
-                    className="text-2xl font-black group-hover:scale-110 transition-transform duration-200 inline-block"
-                    style={{ color: i % 2 === 0 ? "oklch(0.65 0.28 330)" : "oklch(0.75 0.18 195)" }}
-                  >
-                    {s.val}
-                  </p>
-                  <p className="text-xs text-muted-foreground mt-0.5">{s.label}</p>
-                </div>
-              ))}
-            </div>
-
-            <div className="h-px bg-border" />
 
             {/* Bio */}
             <div className="text-sm text-muted-foreground leading-relaxed space-y-1">

@@ -134,7 +134,6 @@ export default function Hero() {
           {[
             { val: "50+", label: "Projects Done" },
             { val: "100%", label: "Satisfaction" },
-            { val: "2K+", label: "Monthly Reach" },
           ].map((stat, i) => (
             <div key={stat.label} className="text-center animate-number-pop" style={{ animationDelay: `${0.6 + i * 0.12}s` }}>
               <p className="text-2xl sm:text-3xl font-black shimmer-text">{stat.val}</p>

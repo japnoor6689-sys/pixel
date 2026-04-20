@@ -12,7 +12,7 @@ const works = [
     subtitle: "Before vs After Campaign",
     bg: "#1a0a2e",
     accent: "#ff3cac",
-    stat: "134 views",
+
     type: "video",
     size: "large",
   },
@@ -22,7 +22,7 @@ const works = [
     subtitle: "No Website · No Trust",
     bg: "#080808",
     accent: "#00d4ff",
-    stat: "110 views",
+
     type: "video",
     size: "normal",
   },
@@ -32,7 +32,7 @@ const works = [
     subtitle: "Brand Growth Strategy",
     bg: "#e8eaf6",
     accent: "#5c35d9",
-    stat: "55 views",
+
     type: "image",
     size: "normal",
   },
@@ -42,7 +42,7 @@ const works = [
     subtitle: "Keeping brands at the forefront",
     bg: "#0a1628",
     accent: "#00d4ff",
-    stat: "Our Service",
+
     type: "video",
     size: "normal",
   },
@@ -52,7 +52,7 @@ const works = [
     subtitle: "Minimalist brand identity",
     bg: "#c9a882",
     accent: "#1a1a1a",
-    stat: "Logo Design",
+
     type: "video",
     size: "normal",
   },
@@ -62,7 +62,7 @@ const works = [
     subtitle: "Brand photography & styling",
     bg: "#1a2e20",
     accent: "#90c8a0",
-    stat: "Lifestyle",
+
     type: "video",
     size: "normal",
   },
@@ -177,7 +177,6 @@ export default function Portfolio() {
                   <Eye size={18} className="text-white" />
                 </div>
                 <div className="text-center">
-                  <p className="text-white text-xs font-bold">{item.stat}</p>
                   <p className="text-white/50 text-[10px] uppercase tracking-widest mt-0.5">{item.category}</p>
                 </div>
               </div>

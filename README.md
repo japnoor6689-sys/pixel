@@ -1,2 +1,0 @@
-# pixel
-Built with Buildify
